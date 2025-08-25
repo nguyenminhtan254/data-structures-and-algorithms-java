@@ -134,10 +134,9 @@ public class LinkedList {
             return true;
         }
         Node newNode = new Node(value);
-        Node before = get(index - 1);
-        Node after = before.next;
-        newNode.next = after;
-        before.next = newNode;
+        Node temp = get(index - 1);
+        newNode.next = temp.next;
+        temp.next = newNode;
         length++;
         return true;
     }
