@@ -1,5 +1,5 @@
 
-package SaQLeetCodeExercises.QueueUsingStack;
+package SaQLeetCodeExercises.QueueUsingStacksEnqueue;
 
 import java.util.Stack;
 

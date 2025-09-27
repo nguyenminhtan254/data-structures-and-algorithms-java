@@ -1,5 +1,5 @@
 
-package SaQLeetCodeExercises.QueueUsingStack;
+package SaQLeetCodeExercises.QueueUsingStacksEnqueue;
 
 public class Main {
 
