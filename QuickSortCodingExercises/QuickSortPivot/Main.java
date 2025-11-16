@@ -11,7 +11,7 @@ public class Main {
         array[secondIndex] = temp;
     }
 
-    private static int pivot(int[] array, int pivotIndex, int endIndex) {
+    public static int pivot(int[] array, int pivotIndex, int endIndex) {
         int swapIndex = pivotIndex;
 
         for (int i = pivotIndex + 1; i <= endIndex; i++) {
